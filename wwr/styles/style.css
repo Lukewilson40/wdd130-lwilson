@@ -1,111 +1,82 @@
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto&display=swap');
+
+.root{
+    --heading-font: "PT Serif";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+}
+
 #content {
-    max-width:1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
 .logo {
+    display: block;
     width: 80px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
 }
 
 nav a {
+    color: rgb(0, 5, 90);
     text-align: center;
-    color: #d9c2a3;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    color: rgb(0, 5, 90);
+    font-family: var(--paragraph-font);
 }
+
+#hero-img {
+    width: 100%;
+}
+
 .button-box {
     text-align: center;
 }
+
 main section {
     text-align: center;
+    font-family: var(--paragraph-font);
 }
+
 #background {
     height: 725px;
-    background-color: rgb(84, 83, 83);
+    background-color: grey;
 }
 
-
-header {
-    background-color: rgb(84, 83, 83);
-}
-nav a:hover {
-    background-color: rgb(84, 83, 83);
-    color: #d9c2a3;
-    text-decoration: underline;
-}
-.book {
-    background-color: rgb(84, 83, 83); 
-}
-.join {
-    background-color: rgb(84, 83, 83);
-}
-.book:hover {
-    background-color: rgb(84, 83, 83);
-    text-decoration: underline;
-}
-.join:hover {
-    background-color: rgb(84, 83, 83);
-    text-decoration: underline;
-}
-.msg {
-    background-color: rgb(84, 83, 83);
-}
-.footer {
-    background-color: rgb(84, 83, 83);
-}
-.home-title {
-    color: #d9c2a3;
-}
-.icon {
-    width: 80px;
-}
-.home-title {
-    color: #d9c2a3;
+header, nav a:hover, .join, .msg, .footer {
+    background-color: grey;
 }
 
-h4 {
-    color: #d9c2a3;
+.book:hover, .join:hover, footer a:hover {
+    color: rgb(0, 5, 90);
+    text-decoration: underline;
+    font-family: var(--paragraph-font);
+}
+
+.home-title, .icon, h4, .msg h2, .msg p, footer {
+    color: rgb(0, 5, 90);
+    font-family: var(--paragraph-font);
 }
 
 .book, .join {
-    color: #d9c2a3;
-}
-
-.book:hover, .join:hover {
-    background-color: black;
-    color: #d9c2a3;
-    text-decoration: underline;
-}
-
-.msg h2 {
-    color: #d9c2a3;
-}
-
-.msg p {
-    color: #d9c2a3;
-}
-
-footer {
-    color: #d9c2a3;
-}
-
-footer a {
-    color: #d9c2a3;
-}
-
-footer a:hover {
-    background-color: black;
-    color: #d9c2a3;
-    text-decoration: underline;
-}
-.book, .join{
     text-decoration: none;
+    font-family: var(--paragraph-font);
 }
 
 footer a {
     text-align: center;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    background-color: grey;  
+    font-family: var(--paragraph-font);
 }
