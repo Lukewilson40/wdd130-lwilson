@@ -20,13 +20,21 @@ h2 {
     margin: 0 auto;
 }
 
+header {
+    background-color: grey;
+
+}
+
 nav {
     text-align: center;
+    background-color: grey;
+
 }
 
 nav a {
     color: rgb(0, 5, 90);
     text-align: center;
+    text-decoration-line: none;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -51,7 +59,7 @@ main section {
     background-color: #d9c2a3;
 }
 
-header, nav a:hover, .join, .footer {
+nav a:hover, .join, .footer {
     background-color: #d9c2a3;
 }
 
