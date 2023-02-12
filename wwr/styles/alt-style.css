@@ -1,0 +1,331 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  h1, h2, h4 {
+    font-weight: normal;
+    margin: 0;
+  }
+  
+  #content {
+    margin: 0 auto;
+    width: 960px;
+  }
+  
+  /* Header */
+  header {
+    position: relative;
+    background-color: #000000;
+    padding: 10px;
+  }
+  
+  #logo_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+  }
+  
+  header nav {
+    float: right;
+    line-height: 1.5;
+  }
+  
+  header nav a {
+    display: inline-block;
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+  }
+  
+  /* Hero */
+  #hero {
+    position: relative;
+    padding: 60px 0;
+  }
+  
+  #hero-box {
+    float: left;
+    width: 50%;
+  }
+  
+  #hero-img {
+    width: 100%;
+  }
+  
+  #hero-msg {
+    float: right;
+    width: 50%;
+    text-align: center;
+    color: grey;
+  }
+  
+  #hero-msg h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  
+  #hero-msg h4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .button-box {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .book {
+    color: grey;
+    background-color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Home Grid */
+  .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    position: relative;
+  }
+  
+  .rivers-card, .camping-card, .rapids-card {
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .card-img {
+    width: 100%;
+  }
+  
+  .icon {
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  #background {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffffff;
+    z-index: -1;
+  }
+  
+  .mountains {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .msg {
+    text-align: center;
+    padding: 20px;
+    color: grey
+  }
+  
+  .msg h2 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  .msg p {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  .join {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .social {
+    padding-top: 10px;
+  }
+  
+  .social a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social img {
+    width: 30px;
+  }
+
+
+/*
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+.logo {
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: rgb(0, 5, 90);
+    text-align: center;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: rgb(0, 5, 90);
+}
+
+#hero-img {
+    width: 100%;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color: grey;
+}
+
+header, nav a:hover, .join, .msg, .footer {
+    background-color: grey;
+}
+
+.book:hover, .join:hover, footer a:hover {
+    color: rgb(0, 5, 90);
+    text-decoration: underline;
+}
+
+.home-title, .icon, h4, .msg h2, .msg p, footer {
+    color: rgb(0, 5, 90);
+}
+
+.book, .join {
+    text-decoration: none;
+}
+
+footer a {
+    text-align: center;
+    text-decoration: none;
+}
+
+footer {
+    background-color: grey;  
+}
+
+.book, .join {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.icon {
+    width: 30px;
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+    font-size: 0.9em;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    padding: 10px 20px;
+    margin: 200px 0;
+}
+
+footer {
+    padding: 10px 20px;
+    margin-top: 200px;
+}
+
+.book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}

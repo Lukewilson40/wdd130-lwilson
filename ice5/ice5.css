@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+header {
+    background-size: 100% 100%;
+    min-height: 60%;
+    background-image: url(images/w05_circles.jpg);
+    /* background-size: 1300px 350px; */
+}
+
+main {
+    background-color: #737373;
+    height: 40%;
+    text-align: center;
+}
+
+main img {
+    border: 5px solid;
+    border-color: #444444;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px 30px;
+    max-height: 200px;
+}
