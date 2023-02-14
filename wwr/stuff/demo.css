@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: row;
+/*  flex-wrap: wrap;   kinda makes flex be like grid */
+}
+
+body > * {
+    padding: 15px;
+}
+
+main {
+    flex: 100%;
+}
+
+header {
+    flex: 1;
+}
