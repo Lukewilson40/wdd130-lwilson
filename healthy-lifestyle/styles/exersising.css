@@ -4,7 +4,31 @@ body {
 	text-align: center;
 	justify-content: center;
 	justify-items: center;
-	background-color: lightgray;
+	background-color: whitesmoke;
+}
+header {
+	padding-top: 20px;
+}
+.logo-stuff {
+	display: grid;
+	grid-template-columns: 44% 1fr 44%;
+}
+.logo {
+	max-width: 100px;
+	border-radius: 5px;
+	box-shadow: 20px 20px 20px white;
+	grid-template-columns: 2/3;
+	justify-self: center;
+}
+.healthy {
+	padding-top: 20px;
+	grid-column: 1/2;
+	text-align: right;
+}
+.lifestyle {
+	padding-top: 20px;
+	grid-column: 3/4;
+	text-align: left;
 }
 
 nav {
